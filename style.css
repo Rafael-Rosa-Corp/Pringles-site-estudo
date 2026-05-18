@@ -456,4 +456,41 @@ header img{
 
 .secao2{
     background-color: #cbcbcb;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.marquee{
+    width: 100%;
+    
+    height: 30vw;
+    overflow: hidden;
+    left: 0;
+    top: -20vw;
+    
+}
+
+.marquee-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.marquee-text-svg{
+    z-index: 1;
+}
+
+.marquee-inner svg{
+    backface-visibility: hidden;
+}
+.marquee-text-svg text{
+    font-size: 4.3vw;
+    fill: white;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    user-select: none;
+    text-transform: uppercase;
 }

@@ -137,28 +137,49 @@
         <section class="secao2">
              <div class="marquee">
                 <div class="marquee-inner">
-                    <svg width="100%" height="163" viewBox="0 0 1440 163" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M-68 122.994C-68 122.994 65.1806 93.9217 155.791 73.5234C368.573 25.6214 604.189 107.464 714.745 102.506C890.49 94.6246 1059.2 21.2516 1233.44 44.5404C1406.32 67.6467 1532 114.393 1532 114.393" stroke="#FF0000" stroke-width="80"/>
+                    <!-- faixa de fundo-->
+                    <svg width="100%" height="163" 
+                    viewBox="0 0 1440 163" 
+                    fill="none"
+                    style="overflow: visible"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="marquee-bg-svg"
+                    >
+                    <path d="M-68 122.994C-68 122.994 65.1806 93.9217 155.791 73.5234C368.573 25.6214 604.189 107.464 714.745 102.506C890.49 94.6246 1059.2 21.2516 1233.44 44.5404C1406.32 67.6467 1532 114.393 1532 114.393" 
+                    stroke="#FF0000" 
+                    stroke-width="80"
+                    stroke-linecap="round"
+                    fill="none"
+                    />
                     </svg>
 
                     <!--TEXTO-->
-                    <svg width="100%"
+                    <svg 
+                    style="overflow: visible"
+                    class="marquee-text-svg"
+                    width="100%"
                      height="62" 
                      viewBox="0 0 1308 62"
                     fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    </svg>
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    
                     <defs>
                        <path d="M-68 122.994C-68 122.994 65.1806 93.9217 155.791 73.5234C368.573 25.6214 604.189 107.464 714.745 102.506C890.49 94.6246 1059.2 21.2516 1233.44 44.5404C1406.32 67.6467 1532 114.393 1532 114.393"
                         id="curve" />
                     </defs>   
+
                     <text width="100%" style="transform: translate3d(0, 0, 0)">
-                        
-
-
-
-
-                    </text> 
+                     <textPath
+                        style="transform: translate3d(0, 0, 0)"
+                        alignment-baseline="middle"
+                        href="#curve" 
+                        startOffset="10%"  
+                        >
+                        Corporação Pixel - Pringles - Projeto de Animação Web
+                        </textPath>
+                    </text>
+                    </svg> 
                 </div>
              </div>    
             <div class="linhaVetorial">

@@ -463,11 +463,11 @@ header img{
 
 .marquee{
     width: 100%;
-    
-    height: 30vw;
+    position: absolute;
+    height: 35vw;
     overflow: hidden;
-    left: 0;
-    top: -20vw;
+    bottom: -31vw;
+    z-index: 300;
     
 }
 
@@ -481,16 +481,31 @@ header img{
 
 .marquee-text-svg{
     z-index: 1;
+    
 }
 
 .marquee-inner svg{
     backface-visibility: hidden;
+    position: absolute;
+    z-index: 301;
+    
+
+}
+
+.marquee-inner svg:nth-child(2){
+    left: -4vw;
+
 }
 .marquee-text-svg text{
+    
     font-size: 4.3vw;
     fill: white;
     font-family: poppins, sans-serif;
     font-weight: 600;
     user-select: none;
     text-transform: uppercase;
+}
+
+.linhaVetorial{
+    margin-top: 20vw;
 }

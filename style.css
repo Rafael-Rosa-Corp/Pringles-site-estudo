@@ -508,4 +508,34 @@ header img{
 
 .linhaVetorial{
     margin-top: 20vw;
+    position: relative;
+        
+}
+
+.cardPai {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+
+.card img {
+    width: 8vw;
+    flex-shrink: 0; /* impede a imagem de encolher */
+}
+
+.card-texto h3 {
+    font-size: 1.2vw;
+}
+
+.card-texto p {
+    font-size: 1vw;
 }
